@@ -9,6 +9,6 @@ public class swap {
 		
 		for(int i=0;i<=range;i++){
 			System.out.print(i+" ");
-		}	
+		}
 	}
 }
