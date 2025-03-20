@@ -3,16 +3,12 @@ import java.util.Scanner;
 public class swap {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter first number: ");
-		int a=sc.nextInt();
-		System.out.println("Enter second number: ");
-		int b=sc.nextInt();
+		System.out.println("Enter range: ");
+		int range=sc.nextInt();
+		System.out.println("Sequence: ");
 		
-		System.out.println("Before Swapping: "+a+" "+b);
-
-		int temp=a;
-		a=b;
-		b=temp;
-		System.out.println("After Swaapping: "+a+" "+b);	
+		for(int i=0;i<=range;i++){
+			System.out.print(i+" ");
+		}	
 	}
 }
