@@ -8,10 +8,11 @@ public class swap {
 		System.out.println("Enter second number: ");
 		int b=sc.nextInt();
 		
-		System.out.println("Before Swapping: "+a+" "+b);
+		System.out.println("Before Swapping the numbers are: "+b+" "+a);
 		a=a+b;
 		b=a-b;
 		a=a-b;
-		System.out.println("After Swaapping: "+a+" "+b);	
+		System.out.println("After Swapping the numbers are: "+b+" "+a);	
+		System.out.printlm("FORCED MERGE CONFLICT!");
 	}
 }
